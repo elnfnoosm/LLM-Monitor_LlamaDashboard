@@ -1,4 +1,5 @@
 # LLM-Monitor_LlamaDashboard
+项目地址：https://github.com/elnfnoosm/LLM-Monitor_LlamaDashboard
 
 ![LlamaDashboard 界面](app/docs/screenshots/dashboard.png)
 
@@ -7,10 +8,10 @@
 一个看本地大模型运行状态的小窗口：模型在不在跑、现在是读题还是生成、生成速度（每秒多少字）、显存/CPU/内存占用等。 支持自动识别 Strata和LM studio、 llama.cpp等，启动谁就监控谁，不用改任何配置。
 
 ## 核心优化特点：
-无需复杂设置，自动识别匹配
-支持 Strata、LM studio、 llama.cpp等
-优化界面显示效果
-监控开启和退出对模型服务零影响，不改你的任何启动脚本和配置
+无需复杂设置，自动识别匹配，
+支持 Strata、LM studio、 llama.cpp等，
+优化了界面显示效果，
+监控开启和退出对模型服务零影响，不改你的任何启动脚本和配置。
 
 ## 使用方式
 
@@ -59,7 +60,6 @@
 
 **换电脑怎么迁移？** 删掉 `app\.venv` 文件夹（本机专用运行环境），在新电脑装好 Python 后重新双击安装 bat 即可。
 
-## 文件夹内容
 
 
 ## 致谢
