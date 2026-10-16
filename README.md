@@ -1,5 +1,5 @@
 # LLM-Monitor_LlamaDashboard
-项目地址：https://github.com/elnfnoosm/LLM-Monitor_LlamaDashboard
+地址：https://github.com/elnfnoosm/LLM-Monitor_LlamaDashboard
 
 ![LlamaDashboard 界面](app/docs/screenshots/dashboard.png)
 
@@ -8,17 +8,17 @@
 一个看本地大模型运行状态的小窗口：模型在不在跑、现在是读题还是生成、生成速度（每秒多少字）、显存/CPU/内存占用等。 支持自动识别 Strata和LM studio、 llama.cpp等，启动谁就监控谁，不用改任何配置。
 
 ## 核心优化特点：
-无需复杂设置，自动识别匹配，
-支持 Strata、LM studio、 llama.cpp等，
-优化了界面显示效果，
-监控开启和退出对模型服务零影响，不改你的任何启动脚本和配置。
+无需复杂设置，自动识别匹配
+支持 Strata、LM studio、 llama.cpp等
+优化界面显示效果
+监控开启和退出对模型服务零影响，不改你的任何启动脚本和配置
 
-## 使用方式
+## 使用方法
 
 1. 放在任意文件夹。本机安装有 Python 3.12+，记得安装时勾选 **Add python.exe to PATH**；
 2. 双击文件夹里的 **`运行本文件安装环境（以后双击启动监控）.bat`**，
 3. 以后每次使用，只需双击 `启动监控.bat`
-
+4. 不想用了，整个文件夹删除即可，LLM-Monitor不会残留任何其他文件。
 
 
 ## 运行环境
@@ -26,13 +26,6 @@
 - Windows 10 / 11
 - Python **3.12 或更高版本**
 - NVIDIA 显卡（显存、温度、功率等显卡数据通过 NVML 读取；没有 N 卡也能运行，只是显卡框不显示数据，其他显卡因本人没卡，暂时没加进去）
-
-## 使用方法
-
-1. 本机安装有 Python 3.12+即可（安装时勾选 **Add python.exe to PATH**）；
-2. 双击文件夹里的 **`运行本文件安装环境（以后双击启动监控）.bat`**，
-3. 以后每次使用，只需双击 `启动监控.bat`
-
 
 
 
