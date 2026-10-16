@@ -1,11 +1,15 @@
 # LLM-Monitor_LlamaDashboard
 地址：https://github.com/elnfnoosm/LLM-Monitor_LlamaDashboard
 
-![LlamaDashboard 界面](app/docs/screenshots/dashboard.png)
+![LLM Monitor 界面](app/docs/screenshots/dashboard.png)
 
 
 ## 主要功能：
-一个看本地大模型运行状态的小窗口：模型在不在跑、现在是读题还是生成、生成速度（每秒多少字）、显存/CPU/内存占用等。 支持自动识别 Strata和LM studio、 llama.cpp等，启动谁就监控谁，不用改任何配置。
+一个看本地大模型运行状态的小窗口：
+-模型名称、模型上下文、运行时间等
+-平均及单次任务的输入/输出token速度、KV命中率、MTP接受率、累计总量、请求历史等
+-GPU显存、功耗、温度、风扇/CPU/内存占用等
+-自动识别 Strata和LM studio、 llama.cpp，启动谁就监控谁，不用改任何配置
 
 ## 核心优化特点：
 无需复杂设置，自动识别匹配
@@ -18,7 +22,7 @@
 1. 放在任意文件夹。本机安装有 Python 3.12+，记得安装时勾选 **Add python.exe to PATH**；
 2. 双击文件夹里的 **`运行本文件安装环境（以后双击启动监控）.bat`**，
 3. 以后每次使用，只需双击 `启动监控.bat`
-4. 不想用了，整个文件夹删除即可，LLM-Monitor不会残留任何其他文件。
+4. 不想用了，整个文件夹删除即可。
 
 
 ## 运行环境
